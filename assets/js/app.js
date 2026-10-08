@@ -19,7 +19,7 @@
   function initTheme() {
     var saved = null;
     try { saved = localStorage.getItem('oakcraft.theme'); } catch (e) {}
-    var theme = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    var theme = saved || 'light';
     applyTheme(theme);
     document.getElementById('themeBtn').addEventListener('click', function () {
       var next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
