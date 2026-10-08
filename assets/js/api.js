@@ -50,7 +50,25 @@ window.API = (function () {
     return p;
   }
 
-  function sendHttp(body) {
+  /* Google occasionally answers /exec with a transient 404/429/5xx before the
+     script even runs (nothing reaches doPost), so those are safe to resend. */
+  var RETRY_STATUS = [404, 429, 500, 502, 503, 504];
+  var RETRY_DELAYS = [700, 1600, 3200];
+
+  function sendHttp(body, attempt) {
+    attempt = attempt || 0;
+    return sendOnce(body).catch(function (e) {
+      var status = e && e.code && /^HTTP_(\d+)$/.test(e.code) ? Number(e.code.slice(5)) : 0;
+      if (RETRY_STATUS.indexOf(status) !== -1 && attempt < RETRY_DELAYS.length) {
+        return new Promise(function (res) { setTimeout(res, RETRY_DELAYS[attempt]); })
+          .then(function () { return sendHttp(body, attempt + 1); });
+      }
+      if (status) throw mkErr(e.code, 'The server is busy right now (HTTP ' + status + '). Please try again in a moment.');
+      throw e;
+    });
+  }
+
+  function sendOnce(body) {
     var controller = new AbortController();
     var timer = setTimeout(function () { controller.abort(); }, 60000);
     return fetch(CONFIG.API_URL, {
