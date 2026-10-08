@@ -1,0 +1,11 @@
+key,value,description
+company_name,OakCraft,Shown in the app header and exports
+complaint_id_prefix,OAK-CMP,Prefix for generated complaint IDs
+timezone,Asia/Kolkata,All timestamps use this timezone
+drive_root_folder_name,Complaint Management,Top level Drive folder
+drive_root_folder_id,,Filled in automatically on first upload
+sla_hours_critical,24,Target turnaround for Critical priority
+sla_hours_high,48,Target turnaround for High priority
+sla_hours_default,72,Target turnaround for everything else
+currency_symbol,₹,Used in payment displays
+support_email,support@oakcraft.in,Reply-to for customer notifications

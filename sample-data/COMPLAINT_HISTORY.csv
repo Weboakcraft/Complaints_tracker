@@ -1,0 +1,153 @@
+history_id,complaint_id,timestamp,actor,actor_role,action,field,from_value,to_value,remarks
+HIS-0ZSDJLTB,OAK-CMP-20260814-0001,2026-08-14T11:09:44.245Z,rahul@oakcraft.in,Technician,Complaint Registered,status,,Registered,Company Website/Online Store · Structural Defect
+HIS-I1YKUORA,OAK-CMP-20260814-0001,2026-08-14T12:39:44.245Z,rahul@oakcraft.in,Technician,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-3P0PRF85,OAK-CMP-20260814-0001,2026-08-15T00:39:44.245Z,rahul@oakcraft.in,Technician,Status Changed,status,Assigned,In Progress,
+HIS-MLK48X67,OAK-CMP-20260814-0001,2026-08-15T14:09:44.245Z,rahul@oakcraft.in,Technician,Status Changed,status,In Progress,Resolved,Replacement base dispatched and fitted on site by the service team.
+HIS-7Y7Z2VR1,OAK-CMP-20260816-0001,2026-08-16T11:50:44.245Z,pooja@oakcraft.in,Manager,Complaint Registered,status,,Registered,Third-Party Retailer (Amazon) · Other
+HIS-SG3MTL3G,OAK-CMP-20260816-0001,2026-08-16T13:20:44.245Z,pooja@oakcraft.in,Manager,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-O4J5FE65,OAK-CMP-20260816-0001,2026-08-16T21:05:44.245Z,pooja@oakcraft.in,Manager,Status Changed,status,Assigned,In Progress,
+HIS-DNMM871H,OAK-CMP-20260816-0001,2026-08-17T06:20:44.245Z,pooja@oakcraft.in,Manager,Status Changed,status,In Progress,Closed,Castor set replaced with the heavy-duty variant.
+HIS-X4V1V7MU,OAK-CMP-20260816-0001,2026-08-17T06:20:44.245Z,pooja@oakcraft.in,Manager,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-MK9HJIKY,OAK-CMP-20260817-0001,2026-08-17T12:31:44.245Z,aman@oakcraft.in,Complaint Executive,Complaint Registered,status,,Registered,Other · Aesthetic/Finish Issue
+HIS-HPG4F1PN,OAK-CMP-20260817-0001,2026-08-17T14:01:44.245Z,aman@oakcraft.in,Complaint Executive,Warranty Verified,warranty_status,Pending Verification,Out of Warranty,Purchased beyond the 12-month cover.
+HIS-ZVRCFFP2,OAK-CMP-20260817-0001,2026-08-17T14:31:44.245Z,aman@oakcraft.in,Complaint Executive,Payment Required,payment_amount,,₹1350,Out-of-warranty paid service
+HIS-GUAM12HL,OAK-CMP-20260819-0001,2026-08-19T13:12:44.245Z,ritu@oakcraft.in,Complaint Executive,Complaint Registered,status,,Registered,Physical Retail Store (Our Brand) · Mechanism Failure
+HIS-BOTMAT6I,OAK-CMP-20260819-0001,2026-08-19T14:42:44.245Z,ritu@oakcraft.in,Complaint Executive,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-TUEWP93M,OAK-CMP-20260820-0001,2026-08-20T13:53:44.245Z,rahul@oakcraft.in,Technician,Complaint Registered,status,,Registered,Third-Party Retailer (Flipkart) · Material/Upholstery Damage
+HIS-1R3O3ERI,OAK-CMP-20260820-0001,2026-08-20T15:23:44.245Z,rahul@oakcraft.in,Technician,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-OL8SHT09,OAK-CMP-20260819-0001,2026-08-21T12:42:44.245Z,ritu@oakcraft.in,Complaint Executive,Status Changed,status,Assigned,In Progress,
+HIS-5J84TAAE,OAK-CMP-20260820-0001,2026-08-22T09:08:44.245Z,rahul@oakcraft.in,Technician,Status Changed,status,Assigned,In Progress,
+HIS-BK8TFX4B,OAK-CMP-20260822-0001,2026-08-22T14:34:44.245Z,pooja@oakcraft.in,Manager,Complaint Registered,status,,Registered,Company Website/Online Store · Comfort/Ergonomics Issue
+HIS-WKOCJT43,OAK-CMP-20260822-0001,2026-08-22T16:04:44.245Z,pooja@oakcraft.in,Manager,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-QD2TJSMX,OAK-CMP-20260819-0001,2026-08-23T12:12:44.245Z,ritu@oakcraft.in,Complaint Executive,Status Changed,status,In Progress,Closed,Gas lift cylinder replaced and load-tested on site.
+HIS-KBP9GBEU,OAK-CMP-20260819-0001,2026-08-23T12:12:44.245Z,ritu@oakcraft.in,Complaint Executive,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-YI5W2V83,OAK-CMP-20260820-0001,2026-08-24T04:23:44.245Z,rahul@oakcraft.in,Technician,Status Changed,status,In Progress,Closed,Armrest upholstery re-stitched and matched to the original fabric.
+HIS-MS0G4JEV,OAK-CMP-20260820-0001,2026-08-24T04:23:44.245Z,rahul@oakcraft.in,Technician,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-DZF0FD5W,OAK-CMP-20260824-0001,2026-08-24T15:15:44.245Z,aman@oakcraft.in,Complaint Executive,Complaint Registered,status,,Registered,Third-Party Retailer (Amazon) · Assembly Issue
+HIS-1MYLWB7Y,OAK-CMP-20260824-0001,2026-08-24T16:45:44.245Z,aman@oakcraft.in,Complaint Executive,Warranty Verified,warranty_status,Pending Verification,Out of Warranty,Purchased beyond the 12-month cover.
+HIS-GKDC5K43,OAK-CMP-20260824-0001,2026-08-24T17:15:44.245Z,aman@oakcraft.in,Complaint Executive,Payment Required,payment_amount,,₹1650,Out-of-warranty paid service
+HIS-XBR8C6SY,OAK-CMP-20260824-0001,2026-08-24T18:15:44.245Z,aman@oakcraft.in,Complaint Executive,Payment Recorded,payment_collected,0,1650,Cash
+HIS-KZODE1ZO,OAK-CMP-20260824-0001,2026-08-24T19:15:44.245Z,pooja@oakcraft.in,Manager,Payment Verified,payment_status,Collected,Verified,
+HIS-SK6S3S3K,OAK-CMP-20260825-0001,2026-08-25T15:56:44.245Z,ritu@oakcraft.in,Complaint Executive,Complaint Registered,status,,Registered,Other · Structural Defect
+HIS-BD4AX0IV,OAK-CMP-20260825-0001,2026-08-25T17:26:44.245Z,ritu@oakcraft.in,Complaint Executive,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-NY9RKL9O,OAK-CMP-20260824-0001,2026-08-26T02:00:44.245Z,aman@oakcraft.in,Complaint Executive,Status Changed,status,Assigned,In Progress,
+HIS-LZDPZNDP,OAK-CMP-20260825-0001,2026-08-26T22:26:44.245Z,ritu@oakcraft.in,Complaint Executive,Status Changed,status,Assigned,In Progress,
+HIS-YTR2EGB2,OAK-CMP-20260824-0001,2026-08-27T12:45:44.245Z,aman@oakcraft.in,Complaint Executive,Status Changed,status,In Progress,Closed,Corrected bracket shipped with an illustrated assembly guide; installation confirmed.
+HIS-VRSTH0K6,OAK-CMP-20260824-0001,2026-08-27T12:45:44.245Z,aman@oakcraft.in,Complaint Executive,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-S7V6ZN04,OAK-CMP-20260827-0001,2026-08-27T16:37:44.245Z,rahul@oakcraft.in,Technician,Complaint Registered,status,,Registered,Physical Retail Store (Our Brand) · Other
+HIS-1RUA9O71,OAK-CMP-20260825-0001,2026-08-28T04:56:44.245Z,ritu@oakcraft.in,Complaint Executive,Status Changed,status,In Progress,Resolved,Replacement base dispatched and fitted on site by the service team.
+HIS-LWAJ56WF,OAK-CMP-20260828-0001,2026-08-28T17:18:44.245Z,pooja@oakcraft.in,Manager,Complaint Registered,status,,Registered,Third-Party Retailer (Flipkart) · Aesthetic/Finish Issue
+HIS-TX2OANX6,OAK-CMP-20260828-0001,2026-08-28T18:48:44.245Z,pooja@oakcraft.in,Manager,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-5EFRP498,OAK-CMP-20260828-0001,2026-08-29T15:18:44.245Z,pooja@oakcraft.in,Manager,Status Changed,status,Assigned,In Progress,
+HIS-O0IKR8O9,OAK-CMP-20260828-0001,2026-08-30T13:18:44.245Z,pooja@oakcraft.in,Manager,Status Changed,status,In Progress,Closed,Leg refinished at the workshop and returned within the TAT window.
+HIS-072KUIH5,OAK-CMP-20260828-0001,2026-08-30T13:18:44.245Z,pooja@oakcraft.in,Manager,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-XQ1KUT71,OAK-CMP-20260830-0001,2026-08-30T17:59:44.245Z,aman@oakcraft.in,Complaint Executive,Complaint Registered,status,,Registered,Company Website/Online Store · Mechanism Failure
+HIS-OTWXJ8BV,OAK-CMP-20260830-0001,2026-08-30T19:29:44.245Z,aman@oakcraft.in,Complaint Executive,Warranty Verified,warranty_status,Pending Verification,Out of Warranty,Purchased beyond the 12-month cover.
+HIS-A9YS09GF,OAK-CMP-20260830-0001,2026-08-30T19:59:44.245Z,aman@oakcraft.in,Complaint Executive,Payment Required,payment_amount,,₹450,Out-of-warranty paid service
+HIS-TWVFAVSA,OAK-CMP-20260830-0001,2026-08-30T20:59:44.245Z,aman@oakcraft.in,Complaint Executive,Payment Recorded,payment_collected,0,450,Cheque
+HIS-2RX84HT9,OAK-CMP-20260830-0001,2026-08-30T21:59:44.245Z,pooja@oakcraft.in,Manager,Payment Verified,payment_status,Collected,Verified,
+HIS-QZFZA4X9,OAK-CMP-20260830-0001,2026-08-31T11:44:44.245Z,aman@oakcraft.in,Complaint Executive,Status Changed,status,Assigned,In Progress,
+HIS-X5TA7CK1,OAK-CMP-20260831-0001,2026-08-31T18:40:44.245Z,ritu@oakcraft.in,Complaint Executive,Complaint Registered,status,,Registered,Third-Party Retailer (Amazon) · Material/Upholstery Damage
+HIS-1VWAWJCX,OAK-CMP-20260831-0001,2026-08-31T20:10:44.245Z,ritu@oakcraft.in,Complaint Executive,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-LIHHBU04,OAK-CMP-20260830-0001,2026-09-01T05:29:44.245Z,aman@oakcraft.in,Complaint Executive,Status Changed,status,In Progress,Closed,Gas lift cylinder replaced and load-tested on site.
+HIS-OJNVDSA1,OAK-CMP-20260830-0001,2026-09-01T05:29:44.245Z,aman@oakcraft.in,Complaint Executive,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-8VRUE3X7,OAK-CMP-20260902-0001,2026-09-02T19:21:44.245Z,rahul@oakcraft.in,Technician,Complaint Registered,status,,Registered,Other · Comfort/Ergonomics Issue
+HIS-H42NZQ0F,OAK-CMP-20260902-0001,2026-09-02T20:51:44.245Z,rahul@oakcraft.in,Technician,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-2B4CRNKV,OAK-CMP-20260902-0001,2026-09-03T04:36:44.245Z,rahul@oakcraft.in,Technician,Status Changed,status,Assigned,In Progress,
+HIS-A07TDJO8,OAK-CMP-20260902-0001,2026-09-03T13:51:44.245Z,rahul@oakcraft.in,Technician,Status Changed,status,In Progress,Closed,Lumbar module swapped for the adjustable variant at no cost.
+HIS-VP630RRZ,OAK-CMP-20260902-0001,2026-09-03T13:51:44.245Z,rahul@oakcraft.in,Technician,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-BRD4MWNZ,OAK-CMP-20260903-0001,2026-09-03T20:02:44.245Z,pooja@oakcraft.in,Manager,Complaint Registered,status,,Registered,Physical Retail Store (Our Brand) · Assembly Issue
+HIS-WO2ZL1SN,OAK-CMP-20260903-0001,2026-09-03T21:32:44.245Z,pooja@oakcraft.in,Manager,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-XGUKTVG1,OAK-CMP-20260903-0001,2026-09-04T01:02:44.245Z,pooja@oakcraft.in,Manager,Status Changed,status,Assigned,In Progress,
+HIS-6D8LX0TR,OAK-CMP-20260903-0001,2026-09-04T06:02:44.245Z,pooja@oakcraft.in,Manager,Status Changed,status,In Progress,Closed,Corrected bracket shipped with an illustrated assembly guide; installation confirmed.
+HIS-5CHZK8XN,OAK-CMP-20260903-0001,2026-09-04T06:02:44.245Z,pooja@oakcraft.in,Manager,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-Y9BQDO6X,OAK-CMP-20260905-0001,2026-09-05T20:43:44.245Z,aman@oakcraft.in,Complaint Executive,Complaint Registered,status,,Registered,Third-Party Retailer (Flipkart) · Structural Defect
+HIS-SBO8W9U2,OAK-CMP-20260905-0001,2026-09-05T22:13:44.245Z,aman@oakcraft.in,Complaint Executive,Warranty Verified,warranty_status,Pending Verification,Out of Warranty,Purchased beyond the 12-month cover.
+HIS-K780JKK7,OAK-CMP-20260905-0001,2026-09-05T22:43:44.245Z,aman@oakcraft.in,Complaint Executive,Payment Required,payment_amount,,₹750,Out-of-warranty paid service
+HIS-X2N0BRR2,OAK-CMP-20260906-0001,2026-09-06T21:24:44.245Z,ritu@oakcraft.in,Complaint Executive,Complaint Registered,status,,Registered,Company Website/Online Store · Other
+HIS-ZN1HDLUJ,OAK-CMP-20260906-0001,2026-09-06T22:54:44.245Z,ritu@oakcraft.in,Complaint Executive,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-GVAKDHBZ,OAK-CMP-20260906-0001,2026-09-08T16:39:44.245Z,ritu@oakcraft.in,Complaint Executive,Status Changed,status,Assigned,In Progress,
+HIS-UE5HV04M,OAK-CMP-20260908-0001,2026-09-08T22:05:44.245Z,rahul@oakcraft.in,Technician,Complaint Registered,status,,Registered,Third-Party Retailer (Amazon) · Aesthetic/Finish Issue
+HIS-UQ8RMJ16,OAK-CMP-20260908-0001,2026-09-08T23:35:44.245Z,rahul@oakcraft.in,Technician,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-OGZZ7KM4,OAK-CMP-20260906-0001,2026-09-10T11:54:44.245Z,ritu@oakcraft.in,Complaint Executive,Status Changed,status,In Progress,Closed,Castor set replaced with the heavy-duty variant.
+HIS-ZVDW3364,OAK-CMP-20260906-0001,2026-09-10T11:54:44.245Z,ritu@oakcraft.in,Complaint Executive,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-OF7YPWBV,OAK-CMP-20260908-0001,2026-09-10T13:05:44.245Z,rahul@oakcraft.in,Technician,Status Changed,status,Assigned,In Progress,
+HIS-OFHMQVWA,OAK-CMP-20260910-0001,2026-09-10T22:46:44.245Z,pooja@oakcraft.in,Manager,Complaint Registered,status,,Registered,Other · Mechanism Failure
+HIS-W5P3K9KS,OAK-CMP-20260911-0001,2026-09-11T23:27:44.245Z,aman@oakcraft.in,Complaint Executive,Complaint Registered,status,,Registered,Physical Retail Store (Our Brand) · Material/Upholstery Damage
+HIS-3KF4Z8AZ,OAK-CMP-20260911-0001,2026-09-12T00:57:44.245Z,aman@oakcraft.in,Complaint Executive,Warranty Verified,warranty_status,Pending Verification,Out of Warranty,Purchased beyond the 12-month cover.
+HIS-27ZZ4JZV,OAK-CMP-20260911-0001,2026-09-12T01:27:44.245Z,aman@oakcraft.in,Complaint Executive,Payment Required,payment_amount,,₹1050,Out-of-warranty paid service
+HIS-DIWYOXKP,OAK-CMP-20260911-0001,2026-09-12T02:27:44.245Z,aman@oakcraft.in,Complaint Executive,Payment Recorded,payment_collected,0,1050,Card
+HIS-NZ9EXFTT,OAK-CMP-20260911-0001,2026-09-12T03:27:44.245Z,pooja@oakcraft.in,Manager,Payment Verified,payment_status,Collected,Verified,
+HIS-MQXCEYOR,OAK-CMP-20260908-0001,2026-09-12T04:05:44.245Z,rahul@oakcraft.in,Technician,Status Changed,status,In Progress,Closed,Leg refinished at the workshop and returned within the TAT window.
+HIS-UCB2TU76,OAK-CMP-20260908-0001,2026-09-12T04:05:44.245Z,rahul@oakcraft.in,Technician,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-8RE80H6U,OAK-CMP-20260911-0001,2026-09-13T05:57:44.245Z,aman@oakcraft.in,Complaint Executive,Status Changed,status,Assigned,In Progress,
+HIS-50POF6ZB,OAK-CMP-20260914-0001,2026-09-14T00:08:44.245Z,ritu@oakcraft.in,Complaint Executive,Complaint Registered,status,,Registered,Third-Party Retailer (Flipkart) · Comfort/Ergonomics Issue
+HIS-DZ4FLDZC,OAK-CMP-20260914-0001,2026-09-14T01:38:44.245Z,ritu@oakcraft.in,Complaint Executive,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-WGJARRWG,OAK-CMP-20260911-0001,2026-09-14T12:27:44.245Z,aman@oakcraft.in,Complaint Executive,Status Changed,status,In Progress,Closed,Armrest upholstery re-stitched and matched to the original fabric.
+HIS-KJF6HPIV,OAK-CMP-20260911-0001,2026-09-14T12:27:44.245Z,aman@oakcraft.in,Complaint Executive,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-LUWKHJSV,OAK-CMP-20260915-0001,2026-09-15T00:49:44.245Z,rahul@oakcraft.in,Technician,Complaint Registered,status,,Registered,Company Website/Online Store · Assembly Issue
+HIS-MXP9FVDF,OAK-CMP-20260915-0001,2026-09-15T02:19:44.245Z,rahul@oakcraft.in,Technician,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-9UU8A8TR,OAK-CMP-20260914-0001,2026-09-15T02:23:44.245Z,ritu@oakcraft.in,Complaint Executive,Status Changed,status,Assigned,In Progress,
+HIS-X06MRJDM,OAK-CMP-20260914-0001,2026-09-16T04:38:44.245Z,ritu@oakcraft.in,Complaint Executive,Status Changed,status,In Progress,Closed,Lumbar module swapped for the adjustable variant at no cost.
+HIS-AGF8LXEE,OAK-CMP-20260914-0001,2026-09-16T04:38:44.245Z,ritu@oakcraft.in,Complaint Executive,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-GF86VGMC,OAK-CMP-20260917-0001,2026-09-17T01:30:44.245Z,pooja@oakcraft.in,Manager,Complaint Registered,status,,Registered,Third-Party Retailer (Amazon) · Structural Defect
+HIS-Y0AXFFZC,OAK-CMP-20260917-0001,2026-09-17T03:00:44.245Z,pooja@oakcraft.in,Manager,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-XG8SYKTH,OAK-CMP-20260917-0001,2026-09-17T19:15:44.245Z,pooja@oakcraft.in,Manager,Status Changed,status,Assigned,In Progress,
+HIS-3CQFR2V5,OAK-CMP-20260918-0001,2026-09-18T02:11:44.245Z,aman@oakcraft.in,Complaint Executive,Complaint Registered,status,,Registered,Other · Other
+HIS-7KQORY9J,OAK-CMP-20260918-0001,2026-09-18T03:41:44.245Z,aman@oakcraft.in,Complaint Executive,Warranty Verified,warranty_status,Pending Verification,Out of Warranty,Purchased beyond the 12-month cover.
+HIS-L1E2N5OL,OAK-CMP-20260918-0001,2026-09-18T04:11:44.245Z,aman@oakcraft.in,Complaint Executive,Payment Required,payment_amount,,₹1350,Out-of-warranty paid service
+HIS-Y475U23Y,OAK-CMP-20260918-0001,2026-09-18T05:11:44.245Z,aman@oakcraft.in,Complaint Executive,Payment Recorded,payment_collected,0,1350,Other
+HIS-93HLZ4CD,OAK-CMP-20260918-0001,2026-09-18T06:11:44.245Z,pooja@oakcraft.in,Manager,Payment Verified,payment_status,Collected,Verified,
+HIS-MP6RUS6I,OAK-CMP-20260917-0001,2026-09-18T13:00:44.245Z,pooja@oakcraft.in,Manager,Status Changed,status,In Progress,Resolved,Replacement base dispatched and fitted on site by the service team.
+HIS-04SP5GVG,OAK-CMP-20260918-0001,2026-09-18T15:41:44.245Z,aman@oakcraft.in,Complaint Executive,Status Changed,status,Assigned,In Progress,
+HIS-8566TZB9,OAK-CMP-20260918-0001,2026-09-19T05:11:44.245Z,aman@oakcraft.in,Complaint Executive,Status Changed,status,In Progress,Closed,Castor set replaced with the heavy-duty variant.
+HIS-5NA1R31C,OAK-CMP-20260918-0001,2026-09-19T05:11:44.245Z,aman@oakcraft.in,Complaint Executive,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-T2CEG1YC,OAK-CMP-20260920-0001,2026-09-20T02:52:44.245Z,ritu@oakcraft.in,Complaint Executive,Complaint Registered,status,,Registered,Physical Retail Store (Our Brand) · Aesthetic/Finish Issue
+HIS-PMQ9N5OM,OAK-CMP-20260920-0001,2026-09-20T04:22:44.245Z,ritu@oakcraft.in,Complaint Executive,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-TDEBCY10,OAK-CMP-20260921-0001,2026-09-21T03:33:44.245Z,rahul@oakcraft.in,Technician,Complaint Registered,status,,Registered,Third-Party Retailer (Flipkart) · Mechanism Failure
+HIS-1SI1YSR7,OAK-CMP-20260921-0001,2026-09-21T05:03:44.245Z,rahul@oakcraft.in,Technician,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-PIQEF59R,OAK-CMP-20260921-0001,2026-09-21T08:33:44.245Z,rahul@oakcraft.in,Technician,Status Changed,status,Assigned,In Progress,
+HIS-XUW3JN0O,OAK-CMP-20260921-0001,2026-09-21T13:33:44.245Z,rahul@oakcraft.in,Technician,Status Changed,status,In Progress,Closed,Gas lift cylinder replaced and load-tested on site.
+HIS-AHLEJW34,OAK-CMP-20260921-0001,2026-09-21T13:33:44.245Z,rahul@oakcraft.in,Technician,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-9UM0JJL2,OAK-CMP-20260923-0001,2026-09-23T04:14:44.245Z,pooja@oakcraft.in,Manager,Complaint Registered,status,,Registered,Company Website/Online Store · Material/Upholstery Damage
+HIS-S1IM765L,OAK-CMP-20260923-0001,2026-09-23T05:44:44.245Z,pooja@oakcraft.in,Manager,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-NFU8W9KK,OAK-CMP-20260923-0001,2026-09-25T03:44:44.245Z,pooja@oakcraft.in,Manager,Status Changed,status,Assigned,In Progress,
+HIS-BTEJZB3I,OAK-CMP-20260925-0001,2026-09-25T04:55:44.245Z,aman@oakcraft.in,Complaint Executive,Complaint Registered,status,,Registered,Third-Party Retailer (Amazon) · Comfort/Ergonomics Issue
+HIS-61ZOSL3V,OAK-CMP-20260925-0001,2026-09-25T06:55:44.245Z,aman@oakcraft.in,Complaint Executive,Payment Required,payment_amount,,₹1650,Out-of-warranty paid service
+HIS-LGOBF7S6,OAK-CMP-20260926-0001,2026-09-26T05:36:44.245Z,ritu@oakcraft.in,Complaint Executive,Complaint Registered,status,,Registered,Other · Assembly Issue
+HIS-537HX39N,OAK-CMP-20260926-0001,2026-09-26T07:06:44.245Z,ritu@oakcraft.in,Complaint Executive,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-BKZU6A4J,OAK-CMP-20260923-0001,2026-09-27T03:14:44.245Z,pooja@oakcraft.in,Manager,Status Changed,status,In Progress,Closed,Armrest upholstery re-stitched and matched to the original fabric.
+HIS-R4NHUAQU,OAK-CMP-20260923-0001,2026-09-27T03:14:44.245Z,pooja@oakcraft.in,Manager,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-YTDNCWL5,OAK-CMP-20260926-0001,2026-09-27T20:36:44.245Z,ritu@oakcraft.in,Complaint Executive,Status Changed,status,Assigned,In Progress,
+HIS-9WJLX1B8,OAK-CMP-20260928-0001,2026-09-28T06:17:44.245Z,rahul@oakcraft.in,Technician,Complaint Registered,status,,Registered,Physical Retail Store (Our Brand) · Structural Defect
+HIS-EUOK4N6S,OAK-CMP-20260928-0001,2026-09-28T07:47:44.245Z,rahul@oakcraft.in,Technician,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-RU7IQWYX,OAK-CMP-20260929-0001,2026-09-29T06:58:44.245Z,pooja@oakcraft.in,Manager,Complaint Registered,status,,Registered,Third-Party Retailer (Flipkart) · Other
+HIS-NHMO0PCV,OAK-CMP-20260929-0001,2026-09-29T08:28:44.245Z,pooja@oakcraft.in,Manager,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-1HTI8M1E,OAK-CMP-20260926-0001,2026-09-29T11:36:44.245Z,ritu@oakcraft.in,Complaint Executive,Status Changed,status,In Progress,Closed,Corrected bracket shipped with an illustrated assembly guide; installation confirmed.
+HIS-YUKQ99UR,OAK-CMP-20260926-0001,2026-09-29T11:36:44.245Z,ritu@oakcraft.in,Complaint Executive,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-W8KXBD7F,OAK-CMP-20260928-0001,2026-09-29T17:02:44.245Z,rahul@oakcraft.in,Technician,Status Changed,status,Assigned,In Progress,
+HIS-TQHGQ3VN,OAK-CMP-20260928-0001,2026-10-01T03:47:44.245Z,rahul@oakcraft.in,Technician,Status Changed,status,In Progress,Resolved,Replacement base dispatched and fitted on site by the service team.
+HIS-EGD012SV,OAK-CMP-20261001-0001,2026-10-01T07:39:44.245Z,aman@oakcraft.in,Complaint Executive,Complaint Registered,status,,Registered,Company Website/Online Store · Aesthetic/Finish Issue
+HIS-PR65D4R9,OAK-CMP-20261001-0001,2026-10-01T09:09:44.245Z,aman@oakcraft.in,Complaint Executive,Warranty Verified,warranty_status,Pending Verification,Out of Warranty,Purchased beyond the 12-month cover.
+HIS-2I1SDM92,OAK-CMP-20261001-0001,2026-10-01T09:39:44.245Z,aman@oakcraft.in,Complaint Executive,Payment Required,payment_amount,,₹450,Out-of-warranty paid service
+HIS-ZUCQDR8Q,OAK-CMP-20261001-0001,2026-10-01T10:39:44.245Z,aman@oakcraft.in,Complaint Executive,Payment Recorded,payment_collected,0,450,Razorpay
+HIS-ZCWVT5HM,OAK-CMP-20261001-0001,2026-10-01T11:39:44.245Z,pooja@oakcraft.in,Manager,Payment Verified,payment_status,Collected,Verified,
+HIS-LBCQ6D3P,OAK-CMP-20261002-0001,2026-10-02T08:20:44.245Z,ritu@oakcraft.in,Complaint Executive,Complaint Registered,status,,Registered,Third-Party Retailer (Amazon) · Mechanism Failure
+HIS-E0HB966K,OAK-CMP-20261002-0001,2026-10-02T09:50:44.245Z,ritu@oakcraft.in,Complaint Executive,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-ZGPJZXJJ,OAK-CMP-20261001-0001,2026-10-02T09:54:44.245Z,aman@oakcraft.in,Complaint Executive,Status Changed,status,Assigned,In Progress,
+HIS-98OKU0D5,OAK-CMP-20261002-0001,2026-10-03T06:20:44.245Z,ritu@oakcraft.in,Complaint Executive,Status Changed,status,Assigned,In Progress,
+HIS-RTU2K9W1,OAK-CMP-20261001-0001,2026-10-03T12:09:44.245Z,aman@oakcraft.in,Complaint Executive,Status Changed,status,In Progress,Closed,Leg refinished at the workshop and returned within the TAT window.
+HIS-R0Y1S029,OAK-CMP-20261001-0001,2026-10-03T12:09:44.245Z,aman@oakcraft.in,Complaint Executive,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-ZABE86JG,OAK-CMP-20261002-0001,2026-10-04T04:20:44.245Z,ritu@oakcraft.in,Complaint Executive,Status Changed,status,In Progress,Closed,Gas lift cylinder replaced and load-tested on site.
+HIS-6BE8B41I,OAK-CMP-20261002-0001,2026-10-04T04:20:44.245Z,ritu@oakcraft.in,Complaint Executive,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-9XYTRID7,OAK-CMP-20261004-0001,2026-10-04T09:01:44.245Z,rahul@oakcraft.in,Technician,Complaint Registered,status,,Registered,Other · Material/Upholstery Damage
+HIS-1H4EXC1D,OAK-CMP-20261004-0001,2026-10-04T10:31:44.245Z,rahul@oakcraft.in,Technician,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-6334Q5MC,OAK-CMP-20261005-0001,2026-10-05T09:42:44.245Z,pooja@oakcraft.in,Manager,Complaint Registered,status,,Registered,Physical Retail Store (Our Brand) · Comfort/Ergonomics Issue
+HIS-9POHEYLU,OAK-CMP-20261005-0001,2026-10-05T11:12:44.245Z,pooja@oakcraft.in,Manager,Warranty Verified,warranty_status,Pending Verification,Under Warranty,"Invoice verified, within cover."
+HIS-LBN1H5JW,OAK-CMP-20261005-0001,2026-10-05T23:12:44.245Z,pooja@oakcraft.in,Manager,Status Changed,status,Assigned,In Progress,
+HIS-CU58N08R,OAK-CMP-20261005-0001,2026-10-06T12:42:44.245Z,pooja@oakcraft.in,Manager,Status Changed,status,In Progress,Closed,Lumbar module swapped for the adjustable variant at no cost.
+HIS-NWVNG9QZ,OAK-CMP-20261005-0001,2026-10-06T12:42:44.245Z,pooja@oakcraft.in,Manager,Customer Confirmed Resolution,customer_confirmed,FALSE,TRUE,
+HIS-QN6QJ3PE,OAK-CMP-20261007-0001,2026-10-07T10:23:44.245Z,aman@oakcraft.in,Complaint Executive,Complaint Registered,status,,Registered,Third-Party Retailer (Flipkart) · Assembly Issue
+HIS-FQX0DF56,OAK-CMP-20261007-0001,2026-10-07T11:53:44.245Z,aman@oakcraft.in,Complaint Executive,Warranty Verified,warranty_status,Pending Verification,Out of Warranty,Purchased beyond the 12-month cover.
+HIS-KR3EI051,OAK-CMP-20261007-0001,2026-10-07T12:23:44.245Z,aman@oakcraft.in,Complaint Executive,Payment Required,payment_amount,,₹750,Out-of-warranty paid service
+HIS-YJJ948NU,OAK-CMP-20261008-0001,2026-10-08T11:04:44.245Z,ritu@oakcraft.in,Complaint Executive,Complaint Registered,status,,Registered,Company Website/Online Store · Structural Defect

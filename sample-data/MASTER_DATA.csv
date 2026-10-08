@@ -1,0 +1,64 @@
+category,value,label,sort_order,active
+chair_type,Office Chair (Ergonomic/Task),Office Chair (Ergonomic/Task),1,TRUE
+chair_type,Dining Chair,Dining Chair,2,TRUE
+chair_type,Lounge/Accent Chair,Lounge/Accent Chair,3,TRUE
+chair_type,Bar/Counter Stool,Bar/Counter Stool,4,TRUE
+chair_type,Outdoor Chair,Outdoor Chair,5,TRUE
+chair_type,Other (Specify in Description),Other (Specify in Description),6,TRUE
+purchase_source,Company Website/Online Store,Company Website/Online Store,1,TRUE
+purchase_source,Physical Retail Store (Our Brand),Physical Retail Store (Our Brand),2,TRUE
+purchase_source,Third-Party Retailer (Amazon),Third-Party Retailer (Amazon),3,TRUE
+purchase_source,Third-Party Retailer (Flipkart),Third-Party Retailer (Flipkart),4,TRUE
+purchase_source,Other,Other,5,TRUE
+complaint_type,Structural Defect,Structural Defect,1,TRUE
+complaint_type,Assembly Issue,Assembly Issue,2,TRUE
+complaint_type,Comfort/Ergonomics Issue,Comfort/Ergonomics Issue,3,TRUE
+complaint_type,Material/Upholstery Damage,Material/Upholstery Damage,4,TRUE
+complaint_type,Mechanism Failure,Mechanism Failure,5,TRUE
+complaint_type,Aesthetic/Finish Issue,Aesthetic/Finish Issue,6,TRUE
+complaint_type,Other,Other,7,TRUE
+invoice_entity,Vishu Sales,Vishu Sales,1,TRUE
+invoice_entity,Naman Packaging,Naman Packaging,2,TRUE
+invoice_entity,Kanha Creation,Kanha Creation,3,TRUE
+invoice_entity,Capital Sales,Capital Sales,4,TRUE
+status,Registered,Registered,1,TRUE
+status,Under Verification,Under Verification,2,TRUE
+status,Warranty Check,Warranty Check,3,TRUE
+status,Awaiting Payment,Awaiting Payment,4,TRUE
+status,Payment Verification,Payment Verification,5,TRUE
+status,Assigned,Assigned,6,TRUE
+status,In Progress,In Progress,7,TRUE
+status,Resolved,Resolved,8,TRUE
+status,Awaiting Customer Confirmation,Awaiting Customer Confirmation,9,TRUE
+status,Closed,Closed,10,TRUE
+status,Rejected,Rejected,11,TRUE
+warranty_status,Pending Verification,Pending Verification,1,TRUE
+warranty_status,Under Warranty,Under Warranty,2,TRUE
+warranty_status,Out of Warranty,Out of Warranty,3,TRUE
+payment_status,Not Required,Not Required,1,TRUE
+payment_status,Pending,Pending,2,TRUE
+payment_status,Collected,Collected,3,TRUE
+payment_status,Verified,Verified,4,TRUE
+payment_status,Failed,Failed,5,TRUE
+payment_status,Refunded,Refunded,6,TRUE
+payment_mode,UPI,UPI,1,TRUE
+payment_mode,Cash,Cash,2,TRUE
+payment_mode,Bank Transfer,Bank Transfer,3,TRUE
+payment_mode,Card,Card,4,TRUE
+payment_mode,Cheque,Cheque,5,TRUE
+payment_mode,Razorpay,Razorpay,6,TRUE
+payment_mode,Other,Other,7,TRUE
+priority,Low,Low,1,TRUE
+priority,Medium,Medium,2,TRUE
+priority,High,High,3,TRUE
+priority,Critical,Critical,4,TRUE
+department,Customer Support,Customer Support,1,TRUE
+department,Service & Repair,Service & Repair,2,TRUE
+department,Logistics,Logistics,3,TRUE
+department,Quality,Quality,4,TRUE
+department,Accounts,Accounts,5,TRUE
+role,Admin,Admin,1,TRUE
+role,Manager,Manager,2,TRUE
+role,Complaint Executive,Complaint Executive,3,TRUE
+role,Technician,Technician,4,TRUE
+role,Viewer,Viewer,5,TRUE

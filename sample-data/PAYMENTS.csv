@@ -1,0 +1,6 @@
+payment_id,complaint_id,amount,payment_date,payment_mode,reference_id,proof_file,collected_by,verified_by,verification_status,remarks,created_at
+PAY-IHLJIS8E,OAK-CMP-20260824-0001,1650,2026-08-24,Cash,TXN91109,,aman@oakcraft.in,pooja@oakcraft.in,Verified,Collected before dispatch of spare.,2026-08-24T18:15:44.245Z
+PAY-L2ET2QG4,OAK-CMP-20260830-0001,450,2026-08-30,Cheque,TXN90985,,aman@oakcraft.in,pooja@oakcraft.in,Verified,Collected before dispatch of spare.,2026-08-30T20:59:44.245Z
+PAY-O007W0IG,OAK-CMP-20260911-0001,1050,2026-09-12,Card,TXN90737,,aman@oakcraft.in,pooja@oakcraft.in,Verified,Collected before dispatch of spare.,2026-09-12T02:27:44.245Z
+PAY-TKXGBR5A,OAK-CMP-20260918-0001,1350,2026-09-18,Other,TXN90613,,aman@oakcraft.in,pooja@oakcraft.in,Verified,Collected before dispatch of spare.,2026-09-18T05:11:44.245Z
+PAY-RBWSAEFM,OAK-CMP-20261001-0001,450,2026-10-01,Razorpay,TXN90365,,aman@oakcraft.in,pooja@oakcraft.in,Verified,Collected before dispatch of spare.,2026-10-01T10:39:44.245Z

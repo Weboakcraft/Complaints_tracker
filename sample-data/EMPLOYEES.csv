@@ -1,0 +1,7 @@
+employee_id,name,email,password_hash,salt,role,department,phone,active,created_at,last_login
+EMP-001,System Administrator,admin@oakcraft.in,(set via the Team screen),(generated),Admin,Customer Support,,TRUE,2026-10-08T11:04:52.205Z,
+EMP-002,Ritu Sharma,ritu@oakcraft.in,(set via the Team screen),(generated),Complaint Executive,Customer Support,,TRUE,2026-10-08T11:04:52.205Z,
+EMP-003,Aman Verma,aman@oakcraft.in,(set via the Team screen),(generated),Complaint Executive,Customer Support,,TRUE,2026-10-08T11:04:52.205Z,
+EMP-004,Pooja Nair,pooja@oakcraft.in,(set via the Team screen),(generated),Manager,Service & Repair,,TRUE,2026-10-08T11:04:52.205Z,
+EMP-005,Rahul Mehta,rahul@oakcraft.in,(set via the Team screen),(generated),Technician,Service & Repair,,TRUE,2026-10-08T11:04:52.205Z,
+EMP-006,Sneha Gupta,sneha@oakcraft.in,(set via the Team screen),(generated),Viewer,Quality,,TRUE,2026-10-08T11:04:52.205Z,
