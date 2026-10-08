@@ -7,7 +7,7 @@ window.CONFIG = {
    * Leave it empty to keep the app in DEMO MODE (seeded sample data,
    * nothing leaves the browser).
    */
-  API_URL: '',
+  API_URL: 'https://script.google.com/macros/s/AKfycbwQW_kxo3mUJmYW6f0nxrlLXsWkndIbDfewWzFOXoF_y28Ihc-e7OkISV2pJvrRMBEc/exec',
 
   COMPANY: 'OakCraft',
   CURRENCY: '₹',
