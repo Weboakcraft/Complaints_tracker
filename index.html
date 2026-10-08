@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>OakCraft Complaint Desk</title>
+<meta name="description" content="Centralised complaint tracking, warranty verification and resolution analytics for OakCraft.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+
+<!-- ───────────────────────── Login ───────────────────────── -->
+<div id="login" class="login">
+  <div class="login__panel">
+    <div class="brand brand--lg">
+      <span class="brand__mark" aria-hidden="true"></span>
+      <span class="brand__text">OakCraft<em>Complaint Desk</em></span>
+    </div>
+    <p class="login__lede">Centralised complaint tracking across web, retail and marketplace channels.</p>
+    <form id="loginForm" autocomplete="on">
+      <label class="field">
+        <span class="field__label">Work email</span>
+        <input type="email" id="loginEmail" required autocomplete="username" placeholder="you@oakcraft.in">
+      </label>
+      <label class="field">
+        <span class="field__label">Password</span>
+        <input type="password" id="loginPassword" required autocomplete="current-password" placeholder="••••••••">
+      </label>
+      <div id="loginError" class="alert alert--error" hidden></div>
+      <button class="btn btn--primary btn--block" type="submit" id="loginBtn">Sign in</button>
+    </form>
+    <div class="login__demo">
+      <strong>Demo mode is on.</strong> No backend configured yet, so the app is running on seeded
+      sample data. Sign in with any of these to see each permission level:
+      <ul>
+        <li><code>admin@oakcraft.in</code> — full access</li>
+        <li><code>ritu@oakcraft.in</code> — complaint executive</li>
+        <li><code>sneha@oakcraft.in</code> — viewer</li>
+      </ul>
+      Password for all demo accounts: <code>OakCraft@2026</code>
+    </div>
+  </div>
+  <aside class="login__aside" aria-hidden="true">
+    <div class="login__quote">
+      <p>Every complaint carries a timestamped trail — who verified the warranty, what was collected, how long it took.</p>
+      <span>Registered → Verified → Resolved → Closed</span>
+    </div>
+  </aside>
+</div>
+
+<!-- ───────────────────────── App shell ───────────────────────── -->
+<div id="app" class="shell" hidden>
+
+  <nav class="sidebar" id="sidebar">
+    <div class="brand">
+      <span class="brand__mark" aria-hidden="true"></span>
+      <span class="brand__text">OakCraft<em>Complaint Desk</em></span>
+    </div>
+    <ul class="nav" id="navList">
+      <li><a href="#/dashboard" data-perm="dashboard.view"><span class="nav__ico" data-ico="chart"></span>Dashboard</a></li>
+      <li><a href="#/new" data-perm="complaint.create"><span class="nav__ico" data-ico="plus"></span>New complaint</a></li>
+      <li><a href="#/complaints"><span class="nav__ico" data-ico="list"></span>Complaints</a></li>
+      <li><a href="#/analytics" data-perm="dashboard.view"><span class="nav__ico" data-ico="pie"></span>Analytics</a></li>
+      <li><a href="#/employees" data-perm="employee.read"><span class="nav__ico" data-ico="people"></span>Team</a></li>
+      <li><a href="#/settings" data-perm="*"><span class="nav__ico" data-ico="cog"></span>Settings</a></li>
+    </ul>
+    <div class="sidebar__foot">
+      <div class="who">
+        <div class="who__avatar" id="whoAvatar">—</div>
+        <div class="who__meta">
+          <strong id="whoName">—</strong>
+          <small id="whoRole">—</small>
+        </div>
+      </div>
+      <button class="btn btn--ghost btn--sm btn--block" id="logoutBtn">Sign out</button>
+    </div>
+  </nav>
+
+  <main class="main">
+    <header class="topbar">
+      <button class="iconbtn only-mobile" id="menuBtn" aria-label="Menu"><span data-ico="menu"></span></button>
+      <h1 id="pageTitle">Dashboard</h1>
+      <div class="topbar__tools">
+        <div class="daterange" id="dateRange">
+          <select id="rangePreset" aria-label="Date range">
+            <option value="7">Last 7 days</option>
+            <option value="30" selected>Last 30 days</option>
+            <option value="90">Last 90 days</option>
+            <option value="365">Last 12 months</option>
+            <option value="all">All time</option>
+          </select>
+        </div>
+        <button class="iconbtn" id="themeBtn" aria-label="Toggle theme"><span data-ico="moon"></span></button>
+        <button class="btn btn--primary btn--sm" id="quickNew" data-perm="complaint.create">New complaint</button>
+      </div>
+    </header>
+
+    <div class="view" id="view" tabindex="-1"></div>
+  </main>
+</div>
+
+<!-- Slide-over for complaint detail -->
+<div class="drawer" id="drawer" hidden>
+  <div class="drawer__scrim" data-close></div>
+  <section class="drawer__panel" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+    <header class="drawer__head">
+      <div>
+        <p class="drawer__eyebrow" id="drawerEyebrow">Complaint</p>
+        <h2 id="drawerTitle">—</h2>
+      </div>
+      <button class="iconbtn" data-close aria-label="Close"><span data-ico="x"></span></button>
+    </header>
+    <div class="drawer__body" id="drawerBody"></div>
+  </section>
+</div>
+
+<div class="toasts" id="toasts" aria-live="polite"></div>
+<div class="loader" id="loader" hidden><span></span></div>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/demo.js"></script>
+<script src="assets/js/api.js"></script>
+<script src="assets/js/ui.js"></script>
+<script src="assets/js/charts.js"></script>
+<script src="assets/js/view-dashboard.js"></script>
+<script src="assets/js/view-complaints.js"></script>
+<script src="assets/js/view-form.js"></script>
+<script src="assets/js/view-admin.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
